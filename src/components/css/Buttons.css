@@ -1,0 +1,57 @@
+.Buttons{
+	font-family: 'Bai Jamjuree', sans-serif;
+  justify-content: center;
+}
+
+.Buttons__container{
+  padding: 45px 30px;
+  text-align: center;
+}
+
+.b{
+	font-size: 18px;
+	color: rgb(241, 241, 241);
+	min-inline-size: max-content;
+}
+
+.Buttons__container__iOSButton {
+	display: block;
+	box-shadow: 0px 4px 16px 0px #49a695;
+	background-color:#26baa4;
+	border-radius:42px;
+	border-bottom:3px solid #49a695;
+	display:inline-block;
+	cursor:pointer;
+	width: calc(100vw - 60px);
+	padding: 16px 0 16px ;
+	text-decoration:none;
+	margin-bottom: 20px;
+}
+.Buttons__container__iOSButton:hover {
+	background-color:#49a695;
+}
+.Buttons__container__iOSButton:active {
+	position:relative;
+	top:1px;
+}
+
+.Buttons__container__MacButton {
+	display: block;
+	box-shadow: 0px 4px 16px 0px hsl(233, 100%, 69%);
+	background-color: var(--blue);
+	border-radius:42px;
+	border-bottom:3px solid hsl(233, 97%, 66%);
+	display:inline-block;
+	cursor:pointer;
+	padding: 16px calc(50vw - 30px - 75px) 16px calc(50vw - 30px - 75px);
+	text-decoration:none;
+	margin-bottom: 20px;
+}
+.Buttons__container__MacButton:hover {
+	background-color: hsl(233, 100%, 69%);
+}
+.Buttons__container__MacButton:active {
+	position:relative;
+	top:1px;
+}
+

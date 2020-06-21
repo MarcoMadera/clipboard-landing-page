@@ -1,5 +1,21 @@
 * {
-  background-color: cadetblue;
-  color: #fff;
-  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --green: hsl(171, 66%, 44%);
+  --blue: hsl(233, 100%, 69%);
+
+/* neutral */
+  --titles: hsl(210, 10%, 33%);
+  --paragraphs: hsl(201, 11%, 66%);
+}
+
+h1{
+  color: var(--titles)
+}
+
+p{
+  color: var(--paragraphs)
 }
