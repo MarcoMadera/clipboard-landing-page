@@ -2,23 +2,19 @@
   background-image: url('../../images/bg-header-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Bai Jamjuree', sans-serif;
-  justify-content: center;
-  text-align: center;
+
   padding: 0 30px;
 }
 
 .Hero__container{ 
-  font-family: 'Bai Jamjuree', sans-serif;
   justify-content: center;
-  padding: 0 30px;
-  text-align: center;
+  padding: 0 34.5px;
 }
 
 .Hero__container__logo{
   justify-content: center;
   text-align: center;
-  padding: 120px 0 0 0;
+  padding: 122px 0 0 0;
 }
 
 .Hero__container__title{
@@ -26,7 +22,6 @@
 }
 
 .Hero__container__excerpt{
-  line-height: 25px;
-  padding: 18.2px 0 0 0;
+  padding: 18.2px 0 45px 0;
 }
 

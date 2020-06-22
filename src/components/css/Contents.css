@@ -1,0 +1,33 @@
+.contents__img{
+  display: inline-block;
+  max-width: 100%;
+  padding: 20px 0px;
+}
+
+.devices{
+  display: inline-block;
+  margin: 0 -34.5px 80px -34.5px;
+  max-width: calc(100% + 34.5px);
+  padding: 0;
+}
+
+.contents__icons{
+  margin-top: 30px;
+}
+
+.contents__qExtracts{
+  margin-bottom: 170px;
+}
+
+.contents__logos{
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.contents__logos img{
+  display: block;
+  transform: scale(0.83);
+  margin: auto;
+  padding: 37px 0 23px;
+}

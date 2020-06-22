@@ -5,10 +5,10 @@ const Buttons = () => {
   return (
     <div className="Buttons">
       <div className="Buttons__container">
-        <a href="#" class="Buttons__container__iOSButton">
+        <a href="#" className="Buttons__container__iOSButton">
           <p className="b">Download for iOS</p>
         </a>
-        <a href="#" class="Buttons__container__MacButton">
+        <a href="#" className="Buttons__container__MacButton">
           <p className="b">Download for Mac</p>
         </a>
       </div>

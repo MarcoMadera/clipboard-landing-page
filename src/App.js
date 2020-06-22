@@ -1,12 +1,14 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import Hero from "./components/Hero";
-import Buttons from "./components/Buttons";
+import Contents from "./components/Contents.js";
+import Footer from "./components/Footer.js";
 
 const App = () => (
   <Fragment>
     <Hero />
-    <Buttons />
+    <Contents />
+    <Footer />
   </Fragment>
 );
 

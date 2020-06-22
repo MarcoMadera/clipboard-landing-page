@@ -1,0 +1,13 @@
+.quickExtract__container{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.quickExtract__container__title{
+  font-size: 23px;
+  padding: 16px 0 16px 0;
+} 
+
+.quickExtract__container__excerpt{
+  font-size: 15.9px;
+}

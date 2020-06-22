@@ -4,12 +4,13 @@
 }
 
 .Buttons__container{
-  padding: 45px 30px;
-  text-align: center;
+	padding-bottom: 45px;
+	margin-bottom: 80px;
 }
 
 .b{
 	font-size: 18px;
+	font-weight: 600;
 	color: rgb(241, 241, 241);
 	min-inline-size: max-content;
 }
@@ -22,8 +23,8 @@
 	border-bottom:3px solid #49a695;
 	display:inline-block;
 	cursor:pointer;
-	width: calc(100vw - 60px);
-	padding: 16px 0 16px ;
+	width: calc(100vw - 69px);
+	padding: 18px 0 12px ;
 	text-decoration:none;
 	margin-bottom: 20px;
 }
@@ -39,13 +40,15 @@
 	display: block;
 	box-shadow: 0px 4px 16px 0px hsl(233, 100%, 69%);
 	background-color: var(--blue);
-	border-radius:42px;
+	border-radius:60px;
 	border-bottom:3px solid hsl(233, 97%, 66%);
 	display:inline-block;
 	cursor:pointer;
-	padding: 16px calc(50vw - 30px - 75px) 16px calc(50vw - 30px - 75px);
+	width: calc(100vw - 69px);
+	padding: 18px 0 12px;
 	text-decoration:none;
 	margin-bottom: 20px;
+	font-weight: 600;
 }
 .Buttons__container__MacButton:hover {
 	background-color: hsl(233, 100%, 69%);
