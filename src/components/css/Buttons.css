@@ -28,9 +28,11 @@
 	text-decoration:none;
 	margin-bottom: 20px;
 }
+
 .Buttons__container__iOSButton:hover {
 	background-color:#49a695;
 }
+
 .Buttons__container__iOSButton:active {
 	position:relative;
 	top:1px;
@@ -50,11 +52,26 @@
 	margin-bottom: 20px;
 	font-weight: 600;
 }
+
 .Buttons__container__MacButton:hover {
-	background-color: hsl(233, 100%, 69%);
+	background-color: hsl(233, 80%, 61%);
 }
+
 .Buttons__container__MacButton:active {
 	position:relative;
 	top:1px;
 }
 
+@media screen and (min-width: 1024px) {
+	.Buttons__container{
+		display: flex;
+		margin-left: 31.5%;
+    margin-right: 31.5%;
+	}
+
+	.Buttons__container__MacButton, .Buttons__container__iOSButton{
+		margin: 0 15px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+}

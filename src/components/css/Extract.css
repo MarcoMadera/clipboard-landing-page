@@ -6,3 +6,10 @@
 .extract__container__title{
   padding: 16px 0 16px 0;
 }
+
+@media screen and (min-width: 1024px) {
+	.extract__container{
+    margin-left: 27%;
+    margin-right: 27%;
+  }
+}

@@ -6,8 +6,6 @@
 :root{
   --green: hsl(171, 66%, 44%);
   --blue: hsl(233, 100%, 69%);
-
-/* neutral */
   --titles: hsl(210, 10%, 33%);
   --paragraphs: hsl(201, 11%, 66%);
 }
@@ -16,10 +14,6 @@ h1, h2, h3{
   color: var(--titles);
 }
 
-.container{
-  margin: 0 34.5px;
-  text-align: center;
-}
 
 h1, h2, h3, p, a{
   font-family: 'Bai Jamjuree', sans-serif;
@@ -37,6 +31,8 @@ p, a{
 a{
   text-decoration: none;
   font-weight: 600;
+  color: rgb(85, 85, 85);
+  width: fit-content;
 }
 
 h1{
@@ -45,4 +41,15 @@ h1{
 
 h2{
   font-size: 27px;
+}
+
+.container{
+  margin: 0 34.5px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .container{
+    margin: 50px 0px;
+  }
 }

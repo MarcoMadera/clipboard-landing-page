@@ -24,20 +24,22 @@ const Contents = () => {
           can access your snippets immediately on all your devices. Our Mac and
           iOS apps will help you organize everything."
       />
-      <img className="contents__img" src={computer} alt="" />
-      <div className="contents__qExtracts">
-        <QuickExtract
-          title="Quick Search"
-          excerpt="Easily search your snippets by content, category, web address, application, and more."
-        />
-        <QuickExtract
-          title="iCloud Sync"
-          excerpt="Instantly saves and syncs snippets across all your devices."
-        />
-        <QuickExtract
-          title="Complete History"
-          excerpt="Retrieve any snippets from the first moment you started using the app."
-        />
+      <div className="contents__imgqExtracts">
+        <img className="contents__img" src={computer} alt="" />
+        <div className="contents__qExtracts">
+          <QuickExtract
+            title="Quick Search"
+            excerpt="Easily search your snippets by content, category, web address, application, and more."
+          />
+          <QuickExtract
+            title="iCloud Sync"
+            excerpt="Instantly saves and syncs snippets across all your devices."
+          />
+          <QuickExtract
+            title="Complete History"
+            excerpt="Retrieve any snippets from the first moment you started using the app."
+          />
+        </div>
       </div>
       <Extract
         title="Access Clipboard Anywhere"
@@ -48,21 +50,29 @@ const Contents = () => {
         title="Supercharge your workflow"
         excerpt="We've got the tools to boost your productivity."
       />
-      <img className="contents__icons" src={blacklist} alt="" />
-      <QuickExtract
-        title="Create blacklists"
-        excerpt="Ensure sensitive information never makes its way to your clipboard by excluding certain sources."
-      />
-      <img className="contents__icons" src={text} alt="" />
-      <QuickExtract
-        title="Plain text snippets"
-        excerpt="Remove unwanted formatting from copied text for a consistent look."
-      />
-      <img className="contents__icons" src={preview} alt="" />
-      <QuickExtract
-        title="Sneak preview"
-        excerpt="Quick preview of all snippets on your Clipboard for easy access."
-      />
+      <div className="iconQuickExtract">
+        <div>
+          <img className="contents__icons" src={blacklist} alt="" />
+          <QuickExtract
+            title="Create blacklists"
+            excerpt="Ensure sensitive information never makes its way to your clipboard by excluding certain sources."
+          />
+        </div>
+        <div>
+          <img className="contents__icons" src={text} alt="" />
+          <QuickExtract
+            title="Plain text snippets"
+            excerpt="Remove unwanted formatting from copied text for a consistent look."
+          />
+        </div>
+        <div>
+          <img className="contents__icons" src={preview} alt="" />
+          <QuickExtract
+            title="Sneak preview"
+            excerpt="Quick preview of all snippets on your Clipboard for easy access."
+          />
+        </div>
+      </div>
       <div className="contents__logos">
         <img src={google} alt="" />
         <img src={ibm} alt="" />

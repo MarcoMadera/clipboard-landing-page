@@ -2,7 +2,6 @@
   background-image: url('../../images/bg-header-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
-
   padding: 0 30px;
 }
 
@@ -25,3 +24,22 @@
   padding: 18.2px 0 45px 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .Hero{
+    background-image: url('../../images/bg-header-desktop.png');
+  }
+
+  .Hero h1{
+    font-size: 38px;
+  }
+
+  .Hero__container__excerpt p{
+    font-size: 18px;
+  }
+
+  .Hero__container{
+    margin-left: 27%;
+    margin-right: 27%;
+    padding: 0;
+  }
+}
